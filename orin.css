@@ -1,0 +1,170 @@
+@media (max-height: 400px)
+{
+
+    #overflowPhone {
+        overflow-x: hidden;
+        position: relative
+    }
+    header {
+        height: 130vh;
+    }
+
+    #firstLogo {
+        left: 5.5vw;
+        top: 5vh;
+    }
+
+    #logoSub {
+        left: 6.3vw;
+    }
+
+    h1 {
+        font-size: 5vw !important;
+        left: 4vw !important;
+        top: 50vh !important;
+    }
+
+    main {
+        height: 127vh;
+    }
+
+    #firstPhone {
+        width: 140vw;
+        height: 220vh;
+        left: 60vw;
+        top: 95vh;
+        zoom: 50%;
+    }
+
+    #robotPicture {
+        width: 130vw;
+        height: 50vh;
+        zoom: 70%;
+    }
+
+    #robotText {
+        font-size: 3.5vw;
+    }
+
+    .circles {
+        width: 30vw;
+        height: 30vh;
+        zoom: 85%;
+        margin-top: 2.2vh;
+    }
+
+    .h3Color{
+        font-size: 3.7vw;
+    }
+    
+    .robotsUnderText {
+        font-size: 2.7vw;
+    }
+
+    #intrestedText , #intrested {
+        display: none;
+    }
+
+    #lastPhone {
+        width: unset;
+        height: unset;
+        left: 60vw;
+        top: 15vh;
+        transform: translateX(-50%);
+        zoom: 80%;
+    }
+
+
+    footer {
+        height: 255vh;
+    }
+
+    #formHeaders {
+        bottom: 79vh;
+    }
+
+    #formHeaders>h3 {
+        font-size: 5vw;
+    }
+    #formHeaders>h4 {
+        font-size: 3vw;
+        font-size: 3.5vw;
+    }
+
+    .inputType1 {
+        width: 30vw;
+        height: 8vh;
+        font-size: 3.5vw;
+    }
+
+
+    #massage {
+        width: 30vw !important;
+        height: 29.4vh;
+        margin-right: 40vw; font-size: 3.5vw !important;
+    }
+
+    #send {
+        width: 70vw;
+        height: 10vh;
+        font-size: 5vw;
+        margin-top: 10vh;
+    }
+
+    ::placeholder {
+        font-size: 3.5vw !important;
+        padding-right: 1vw;
+    }
+
+    #secondLogo {
+        width: 14vw;
+        height: 10.5vh;
+    }
+
+    #lastHalfCircle {
+        width: 75vw;
+        height: 19vh;
+    }
+
+    #underLastPhone {
+        zoom: unset;
+        left: 54.5vw;
+        top: 160vh;
+        zoom: 70%;
+        height: 60vh;
+        width: 30vw;
+        transform: rotate(382.5deg);
+    }
+
+    #orangeCircle {
+        width: 4vw;
+        height: 3.5vh;
+        top: 155vh;
+    }
+
+    #aboveLastPhone {
+        left: 38vw;
+        transform: rotate(380deg);
+        zoom: 150%;
+        height: 75vh;
+        top: -43vh;
+    }
+
+    #lastPhone {
+        left: 64vw;
+        width: 77vw;
+        height: 119vh;
+        top: 24vh;
+    }
+
+    #buttonPhone{
+        left: 71vw;
+        width: 23vw;
+        height: 5vh;
+        top: 59vh;
+    }
+
+    form {
+        bottom: 26.5vh;
+    }
+}

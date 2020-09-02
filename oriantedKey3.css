@@ -1,0 +1,109 @@
+@media (max-height: 300px)
+{
+    header {
+        height: 170vh;
+    }
+
+    h1 {
+        top: 60vh !important;
+    }
+
+    #firstPhone {
+        width: 50vw;
+        height: 250vh;
+        left: 52vw;
+        top: 70vh;
+    }
+
+    main {
+        height: 200vh;
+    }
+
+    #robotPicture {
+        height: 50vh;
+    }
+
+    #robotText {
+        position: relative;
+        top: 2vh;
+    }
+
+    .circles {
+        height: 50vh;
+    }
+
+    footer {
+        height: 500vh;
+    }
+
+    #lastPhone {
+        height: 200vh;
+        top: 58vh;
+    }
+
+    #aboveLastPhone {
+        height: 150vh;
+        left: 55vw;
+        top: -30vh;
+        transform: rotate(330deg);
+    }
+
+    #underLastPhone {
+        top: 224vh;
+        height: 90vh;
+    }
+
+    
+    #orangeCircle {
+        width: 2vw;
+        height: 8vh;
+        top: 310vh;
+    }
+
+    #intrestedText {
+        top: 100vh;
+    }
+
+    #intrested {
+        top: 75vh;
+    }
+
+    #formHeaders {
+        top: 330vh;
+    }
+    
+    form {
+        top: 370vh;
+    }
+
+    #massage {
+        height: 44vh;
+    }
+
+    .inputType1 {
+        height: 12vh;
+    }
+
+    #send {
+        height: 15vh;
+        position: relative;
+        top: 8vh;
+        font-size: 2vw;
+    }
+
+    #lastHalfCircle {
+        height: 40vh;
+    }
+
+    #secondLogo {
+        height: 20vh;
+    }
+
+    ::placeholder {
+        padding-right: 0.3vw;
+    }
+}
+
+::placeholder {
+    padding-right: 0.3vw;
+}

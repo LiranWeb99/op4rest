@@ -1,0 +1,35 @@
+@media (max-width: 768px) {
+
+    h1 {
+        top: 35vh !important;
+    }
+
+    #firstPhone {
+        -webkit-transform: scale(0.75);
+        transform: scale(0.75);
+        left: 35vw;
+        top: -10vh;
+    }
+
+    #aboveLastPhone {
+        left: 30vw;
+    }
+
+    #underLastPhone {
+        -webkit-transform: scale(0.93);
+        transform: scale(0.93);
+        left: 32.7vw;
+        height: 32vh;
+        top: 93vh;
+    }
+
+    footer {
+        z-index: 1;
+    }
+
+    #massage {
+        height: 21.9vh;
+        position: relative;
+        right: 1vw;
+    }
+}
