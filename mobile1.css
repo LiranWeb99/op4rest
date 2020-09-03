@@ -5,12 +5,14 @@
     }
 
     #firstLogo {
-        left: 5vw;
-        top: 3vh;
+        left: 17vw;
+        top: 7vh;
+        zoom: 50%;
     }
 
     #logoSub {
-        left: 5.8vw;
+        left: 3.2vw;
+        top: 8.4vh;
     }
 
     #flexCircles {
@@ -20,20 +22,20 @@
 
     h1 {
         font-size: 5vw !important;
-        left: 4vw !important;
-        top: 35vh !important;
+        left: 3vw !important;
+        top: 43vh !important;
     }
 
      #intrested {
         position: absolute;
-        top: 102vh;
+        top: 4vh;
         left: 37vw;
         font-size: 6vw;
         width: 100vw;
     }
     #intrestedText {
         position: absolute;
-        top: 107.5vh;
+        top: 10vh;
         left: 50vw;
         transform: translateX(-50%);
         text-align: center;
@@ -42,14 +44,14 @@
     }
 
     header {
-        height: 85vh;
+        height: 82vh;
     }
 
     #firstPhone {
         width: 150vw;
         height: 140vh;
         left: 52vw;
-        top: 51vh;
+        top: 55vh !important;
         zoom: 50%;
     }
 
@@ -66,7 +68,7 @@
     }
 
     #robotText {
-        font-size: 3.4vw;
+        font-size: 3.3vw;
     }
     
 
@@ -95,7 +97,7 @@
         width: unset;
         height: unset;
         left: 60vw;
-        top: 15vh;
+        top: 40vh;
         transform: translateX(-50%);
         zoom: 80%;
     }
@@ -103,11 +105,11 @@
     #orangeCircle {
         width: 4vw;
         height: 2vh;
-        top: 96vh;
+        top: 113vh;
     }
 
     footer {
-        height: 185vh;
+        height: 177vh;
     }
 
     #formHeaders {
@@ -155,8 +157,8 @@
 
     #underLastPhone {
         zoom: unset;
-        left: 60.5vw;
-        top: 100vh;
+        left: 58.8vw;
+        top: 127vh;
         zoom: 70%;
         height: 36vh;
         width: 25vw;
@@ -168,6 +170,7 @@
         transform: rotate(380deg);
         zoom: unset;
         height: 70vh;
+        display: none;
     }
 
     #lastPhone {
@@ -190,7 +193,7 @@
 
 @media screen and (min-width:370px) and (max-width:500px){
     #firstPhone {
-        top: 65vh;
+        top: 57vh;
     }
  }
 
@@ -241,10 +244,6 @@
     #lastPhone {
         height: 40vh;
         top: 15vh !important;
-    }
-
-    footer {
-        height: 150vh !important;
     }
 
     #underLastPhone {

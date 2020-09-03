@@ -2,13 +2,25 @@
     #firstPhone {
         width: 80vw;
         height: 78vh;
-        left: 25vw;
-        top: 29vh;
+        left: 26vw;
+        top: 22vh !important; 
         zoom: 50%;
     }
 
+    #firstLogo {
+        left: 11vw;
+        top: 3vh;
+        zoom: 50%;
+    }
+
+    #logoSub {
+        left: 5.5vw;
+        top: 8.7vh;
+    }
+
     h1 {
-        top: 30vh !important;
+        top: 38vh !important;
+        left: 1vw;
     }
 
     #robotPicture {
@@ -20,29 +32,29 @@
     }
 
     #lastPhone {
-        left: 50vw;
+        left: 53vw;
         width: 64vw;
         height: 63vh;
     }
 
     footer {
-        height: 217vh;
+        height: 215vh;
     }
     #intrested {
-        top: 113vh;
-        left: 36vw;
+        top: 6vh;
+        left: 35.5vw;
     }
 
     #intrestedText {
-        top: 120vh;
+        top: 14vh;
     }
 
  
 
     #underLastPhone {
         zoom: unset;
-        left: 35.5vw;
-        top: 76vh;
+        left: 35vw;
+        top: 102vh;
         zoom: 70%;
         height: 30vh;
         width: 25vw;
@@ -51,8 +63,8 @@
 
     #orangeCircle {
         width: 4vw;
-        height: 2vh;
-        top: 107vh;
+        height: 2.2vh;
+        top: 132.3vh;
     }
 
     #formHeaders {

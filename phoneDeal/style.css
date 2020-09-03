@@ -129,7 +129,7 @@ main {
 footer {
     background: transparent linear-gradient(180deg, #F5F5F5 0%, #DEDEDE 100%) 0% 0% no-repeat padding-box;
     width: 100vw;
-    height: 200vh;
+    height: 12vh;
     position: relative;
 }
 
@@ -316,13 +316,6 @@ input {
     height: 40vh;
     z-index: 1;
 }
-
-
-
-
-
-
-
 
 iframe{
     display: none;

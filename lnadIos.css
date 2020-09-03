@@ -4,6 +4,15 @@
         top: 35vh !important;
     }
 
+    #firstLogo {
+        zoom: 70%;
+        left: 5.5vw;
+    }
+
+    #logoSub {
+        top: 19vh;
+    }
+
     #firstPhone {
         -webkit-transform: scale(0.75);
         transform: scale(0.75);

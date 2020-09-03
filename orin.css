@@ -10,18 +10,20 @@
     }
 
     #firstLogo {
-        left: 5.5vw;
-        top: 5vh;
+        left: 17vw;
+        top: 12vh;
+        zoom: 50%;
     }
 
     #logoSub {
-        left: 6.3vw;
+        left: 3.1vw;
+        top: 15.8vh;
     }
 
     h1 {
         font-size: 5vw !important;
-        left: 4vw !important;
-        top: 50vh !important;
+        left: 3.8vw !important;
+        top: 67vh !important;
     }
 
     main {
@@ -32,7 +34,7 @@
         width: 140vw;
         height: 220vh;
         left: 60vw;
-        top: 95vh;
+        top: 94vh;
         zoom: 50%;
     }
 
@@ -65,14 +67,14 @@
         width: unset;
         height: unset;
         left: 60vw;
-        top: 15vh;
+        top: 60vh;
         transform: translateX(-50%);
         zoom: 80%;
     }
 
 
     footer {
-        height: 305vh;
+        height: 290vh;
     }
 
     #formHeaders {
@@ -124,8 +126,8 @@
 
     #underLastPhone {
         zoom: unset;
-        left: 54.5vw;
-        top: 160vh;
+        left: 54.4vw;
+        top: 205vh;
         zoom: 70%;
         height: 60vh;
         width: 30vw;
@@ -135,7 +137,7 @@
     #orangeCircle {
         width: 4vw;
         height: 3.5vh;
-        top: 155vh;
+        top: 187vh;
     }
 
     #aboveLastPhone {
@@ -144,13 +146,14 @@
         zoom: 150%;
         height: 75vh;
         top: -43vh;
+        display: none;
     }
 
     #lastPhone {
         left: 64vw;
         width: 77vw;
         height: 119vh;
-        top: 24vh;
+        top: 63vh;
     }
 
     #buttonPhone{
@@ -167,7 +170,7 @@
     #intrested {
         z-index: 12332;
         font-size: 6.7vw;
-        top: 162vh;
+        top: 6vh;
         left: 35vw;
         width: 100vw;
     }
@@ -175,7 +178,7 @@
     #intrestedText {
         z-index: 12332;
         font-size: 3vw;
-        top: 174vh;
+        top: 15vh;
         left: 25vw;
         width: 50vw;
         text-align: center;
