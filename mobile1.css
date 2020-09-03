@@ -24,8 +24,21 @@
         top: 35vh !important;
     }
 
-    #intrestedText , #intrested {
-        display: none;
+     #intrested {
+        position: absolute;
+        top: 102vh;
+        left: 37vw;
+        font-size: 6vw;
+        width: 100vw;
+    }
+    #intrestedText {
+        position: absolute;
+        top: 107.5vh;
+        left: 50vw;
+        transform: translateX(-50%);
+        text-align: center;
+        width: 50vw;
+        font-size: 3vw;
     }
 
     header {
@@ -94,11 +107,11 @@
     }
 
     footer {
-        height: 165vh;
+        height: 185vh;
     }
 
     #formHeaders {
-        bottom: 57vh;
+        bottom: 50vh;
     }
 
     #formHeaders>h3 {
@@ -171,7 +184,7 @@
     }
 
     form {
-        bottom: 20.5vh;
+        bottom: 15vh;
     }
 }
 
@@ -225,14 +238,6 @@
         height: 85vh !important;
     }
 
-    #intrestedText {
-        top: 25vh !important;
-    }
-
-    #intrested {
-        top: 20vh !important;
-    }
-
     #lastPhone {
         height: 40vh;
         top: 15vh !important;
@@ -274,5 +279,4 @@
         height: 6vh;
         width: 10vw;
     }
-
 }

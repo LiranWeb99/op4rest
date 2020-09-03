@@ -61,10 +61,6 @@
         font-size: 2.7vw;
     }
 
-    #intrestedText , #intrested {
-        display: none;
-    }
-
     #lastPhone {
         width: unset;
         height: unset;
@@ -76,7 +72,7 @@
 
 
     footer {
-        height: 255vh;
+        height: 305vh;
     }
 
     #formHeaders {
@@ -166,5 +162,22 @@
 
     form {
         bottom: 26.5vh;
+    }
+
+    #intrested {
+        z-index: 12332;
+        font-size: 6.7vw;
+        top: 162vh;
+        left: 35vw;
+        width: 100vw;
+    }
+
+    #intrestedText {
+        z-index: 12332;
+        font-size: 3vw;
+        top: 174vh;
+        left: 25vw;
+        width: 50vw;
+        text-align: center;
     }
 }

@@ -20,26 +20,22 @@ header { /*Background Grey*/
 
 #firstLogo {
     position: absolute;
-    top: 5.3vh;
-    left: 6vw;
-    zoom: 70%;
-    width: 6.5vw;
-    height: 7%;
+    top: 30px;
+    left: 70px;
 }
 
 #logoSub {
     position: absolute;
-    top: 10.6vh;
-    left: 3.75vw;
+    top: 100px;
+    left: 75px;
     font-family: 'Heebo', sans-serif;
     color: #080a41;
-    font-size: 1vw;
 }
 
 #firstHeader {
     position: absolute;
-    top: 25vh;
-    left: 26vw;
+    top: 26vh;
+    left: 25vw;
     font-family: 'Heebo';
     color: #080A41;
     font-size: 2vw;
@@ -52,10 +48,10 @@ header { /*Background Grey*/
 #firstPhone {
    zoom: 70%;
    position: absolute;
-   left: 59vw;
-   top: 16vh;
+   left: 58vw;
+   top: 17vh;
    width: 40vw;
-   height: 95%;
+   height: 137vh;
 }
 
 #icons {
@@ -89,8 +85,8 @@ main {
 #robotPicture {
     display: block;
     margin: auto;
-    width: 35vw;
-    height: 30%;
+    width: 38vw;
+    height: 28vh;
 }
 
 #robotText {
@@ -124,6 +120,8 @@ main {
 
 
 .circles {
+    width: 12vw;
+    height: 24.5vh;
 }
 
 
@@ -131,7 +129,7 @@ main {
 footer {
     background: transparent linear-gradient(180deg, #F5F5F5 0%, #DEDEDE 100%) 0% 0% no-repeat padding-box;
     width: 100vw;
-    height: 210vh;
+    height: 200vh;
     position: relative;
 }
 
@@ -140,25 +138,46 @@ footer {
     position: absolute;
     left: 25vw;
     top: 25vh;
-    width: 22.5vw;
-    height: 29.6%;
+    width: 24.2vw;
+    height: 73vh;
 }
 
 
 #orangeCircle {
+    background: #F78C68;
+    width: 1.5vw;
+    height: 3vh;
+    border-radius: 100%;
     position: absolute;
-    top: 58%;
+    bottom: 74.5vh;
     z-index: 2;
-    left: 50.85vw;
-    width: 1.6vw;
-    height: 1.6%;
+    left: 50vw;
+    transform: translateX(-50%);
 }
 
+#lastHalfCircle{
+    position: absolute;
+    bottom: 0vh;
+    left: 50vw;
+    transform: translateX(-50%);
+    width: 25vw;
+    height: 15vh;
+}
+
+
+#secondLogo{
+    position: absolute;
+    bottom: 1vh;
+    left: 50vw;
+    transform: translateX(-50%);
+    width: 4vw;
+    height: 7vh;
+}
 
 #intrested{
     color: #F04F29;
     position: absolute;
-    left: 56vw;
+    right: 32vw;
     font-family: 'Heebo', sans-serif;
     font-size: 3vw;
     position: absolute;
@@ -168,20 +187,30 @@ footer {
 #intrestedText {
     color: #080a41;
     position: absolute;
-    left: 53vw;
+    right: 32vw;
     font-family: 'Heebo', sans-serif;
-    top: 39vh;
+    top: 40vh;
     direction: rtl;
     font-size: 1vw;
 }
 
+form {
+    position: absolute;
+    bottom: 24vh;
+    transform: translateX(-50%);
+    left: 50vw;
+}
+
+
 
 #formHeaders {
+    position: absolute;
+    bottom: 63vh;
+    left: 50vw;
+    transform: translateX(-50%);
     font-size: 1.5vw;
     color: rgb(8, 10, 65);
     text-align: center;
-    position: relative;
-    top: 129vh;
 }
 
 #formHeaders>h3{
@@ -192,13 +221,6 @@ footer {
     font-size: 1vw;
     font-family: 'Heebo', sans-serif;
 }
-
-#form {
-    position: absolute;
-    bottom: 18%;
-    left: 31vw;
-}
-
 
 input {
     direction: rtl;
@@ -212,7 +234,7 @@ input {
 ::placeholder{
     color: #080A41;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 1vw;
 }
 
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
@@ -234,7 +256,7 @@ input {
 
 #massage {
     width: 20vw;
-    height: 20.2vh;
+    height: 20vh;
     resize: none;
     background-color: transparent;
     direction: rtl;
@@ -242,20 +264,22 @@ input {
     border: 1px solid #080A41;
     font-family: 'Heebo', sans-serif;
     font-size: 1vw;
-    margin-top: 0.9vh;
+    position: relative;
+    top: 0.9vh;
 }
 
 #massage::placeholder{
-    font-size: 15px;
+    font-size: 1vw;
 }
 
 .inputType1 {
     width: 17vw;
     height: 5vh;
-    margin-top: 0.5em; margin-bottom: 0.5em;
+    margin-top: 1vh; margin-bottom: 1vh;
 }
 
 #inputs {
+    margin-bottom: -4vh;
 }
 
 
@@ -267,29 +291,37 @@ input {
     display: block;
     margin: auto;
     height: 6vh;
-    font-size: 1.5vw;
+    font-size: 3vh;
     cursor: pointer;
-    margin-top: 4vh;
+    margin-top: 8vh;
     border: none;
     outline: none;
 }
 
 #aboveLastPhone {
+    zoom: 50%;
+    width: 40vw;
+    height: 100vh;
     position: absolute;
-    top: -36vh;
-    left: 36.5vw;
-    width: 33vw;
-    height: 45%;
+    top: -37vh;
+    left: 64vw;
 }
 
 #underLastPhone {
     position: absolute;
-    top: 75vh;
-    left: 34.8vw;
+    top: 84.8vh;
+    left: 32.1vw;
+    zoom: 100%;
+    width: 18vw;
+    height: 40vh;
     z-index: 1;
-    width: 17vw;
-    height: 27.1%;
 }
+
+
+
+
+
+
 
 
 iframe{
@@ -298,20 +330,13 @@ iframe{
 
 #buttonPhone {
     position: absolute;
-    left: 57.6vw;
+    left: 57vw;
     z-index: 3;
-    top: 50.2vh;
+    top: 49.5vh;
     width: 5vw;
-    height: 1.6vh;
+    height: 1.5vh;
     cursor: pointer;
-    color: #E5E1FF;
-    border-radius: 15px;
-    text-align: center;
-    letter-spacing: 0.05px;
-    font-family: 'Heebo', sans-serif;
-    font-size: 0.5vw;
-    background-color: transparent;
-    transform: matrix(0.98, 0.19, -0.19, 0.98, 0, 0);
+    transform: rotate(13deg);
 }
 
 input[type=number]::-webkit-inner-spin-button, 
@@ -320,24 +345,3 @@ input[type=number]::-webkit-outer-spin-button {
   margin: 0; 
 }
 
-
-#firstFlex {
-    margin-right: -300px;
-}
-
-#thirdFlex {
-    margin-left: -300px;
-}
-
-#scaners {
-    position: relative;
-    top: 6px;
-    margin-bottom: 9px;
-    zoom: 98%;
-}
-
-#secondLogo {
-    position: absolute;
-    top: calc(100% - 138px);
-    left: 52vw;
-}

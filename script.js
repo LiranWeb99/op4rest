@@ -1,4 +1,5 @@
-//Validations----------------------------------------------------------------------//Validations
+setTimeout(() => {
+    //Validations----------------------------------------------------------------------//Validations
 let mail = document.getElementById("email");
 document.getElementById("send").onclick = function () {
 
@@ -240,12 +241,16 @@ if(navigator.userAgent.indexOf("Chrome") != -1)
         if(phoneState=="orianted")
         {
             //give it css for orianted
-            document.getElementsByTagName("head")[0].appendChild(oriantedKeyboard);
+            setTimeout(() => {
+                document.getElementsByTagName("head")[0].appendChild(oriantedKeyboard);
+            }, 1);
         }
     
         else { //phonestate == "landscape"
            //give it css for landscape
-           document.getElementsByTagName("head")[0].appendChild(landscapeKeyboard);
+           setTimeout(() => {
+            document.getElementsByTagName("head")[0].appendChild(landscapeKeyboard);
+           }, 1);
         }
     }
 }
@@ -254,12 +259,16 @@ if (userAgent.match(/iPhone/i)) {
     if(phoneState=="orianted")
     {
         //give it css for orianted
-        document.getElementsByTagName("head")[0].appendChild(iosOrianted);
+        setTimeout(() => {
+            document.getElementsByTagName("head")[0].appendChild(iosOrianted);
+        }, 1);
     }
 
     else { //phonestate == "landscape"
        //give it css for landscape
-       document.getElementsByTagName("head")[0].appendChild(iosLandscape);
+       setTimeout(() => {
+        document.getElementsByTagName("head")[0].appendChild(iosLandscape);
+       }, 1);
     }
  }
 
@@ -299,7 +308,20 @@ if (userAgent.match(/iPhone/i)) {
 }
 
 });
-
 //DealingAndroidKeyboardChrome------------------------------------------------------------//DealingAndroidKeyboardChrome
+
+
+
+/*
+let mq = window.matchMedia( "(max-height: 400px)" );
+if (mq.matches) {
+    alert("ds");
+}
+else {
+    // window width is greater than 570px
+}
+ */
+}, 1);
+
 
 

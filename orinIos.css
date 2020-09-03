@@ -26,8 +26,18 @@
     }
 
     footer {
-        height: 185vh;
+        height: 217vh;
     }
+    #intrested {
+        top: 113vh;
+        left: 36vw;
+    }
+
+    #intrestedText {
+        top: 120vh;
+    }
+
+ 
 
     #underLastPhone {
         zoom: unset;
